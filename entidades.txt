@@ -1,0 +1,38 @@
+Entidades del caso
+
+Departamento:
+- id_departamento: autoincrement
+- id_cliente: autoincrement
+- id_region: autoincrement
+- comuna: varchar
+- calle: varchar
+- numero: int
+- *tipo de alojamiento* en duda
+- amoblado: boolean
+- cable: boolean
+- internet: boolean
+- calefaccion: boolean
+- calefon: boolean
+
+Region:
+- id_region
+- nombre
+
+Cliente:
+- id_cliente: autoincrement
+- nombre: varchar
+- apellidos: varchar
+- username: varchar
+- password: varchar
+- fecha: date
+- mail: varchar
+- telefono: number
+
+Reserva:
+- id_reserva: autoincrement
+- id_departamento: autoincrement
+- id_cliente: autoincrement
+- check_in: date
+- ckech_out: date
+
+
